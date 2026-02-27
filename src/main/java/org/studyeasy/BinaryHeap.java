@@ -59,7 +59,7 @@ public class BinaryHeap {
         arr[sizeOfTree+1]=value;
         sizeOfTree++;
         heapifyBottomToTop(sizeOfTree,heapType);
-        System.out.println("Inserted "+value+" Successfully in Heap");
+        System.out.println("Inserted "+value+" Successfully in Heap.");
     }
 
 
