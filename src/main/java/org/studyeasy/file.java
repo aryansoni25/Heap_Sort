@@ -8,7 +8,7 @@ public class file {
         try {
             File f = new File("sample.txt"); // or just "sample.txt" if placed in target/classes
             Scanner sc = new Scanner(f);
-            System.out.println("File Contents: ");
+            System.out.println("File Content: ");
             while (sc.hasNextLine()) {
                 String l = sc.nextLine();
                 System.out.println(l);
