@@ -10,8 +10,8 @@ public class file {
             Scanner sc = new Scanner(f);
             System.out.println("File Content: ");
             while (sc.hasNextLine()) {
-                String l = sc.nextLine();
-                System.out.println(l);
+                String lr = sc.nextLine();
+                System.out.println(lr);
             }
             sc.close();
         } catch (FileNotFoundException e) {
