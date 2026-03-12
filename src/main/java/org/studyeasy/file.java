@@ -15,7 +15,7 @@ public class file {
             }
             sc.close();
         } catch (FileNotFoundException e) {
-            System.out.println("Error : File not found! ");
+            System.out.println("Error : File not found!");
             e.printStackTrace();
         }
     }
