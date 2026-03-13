@@ -18,7 +18,7 @@ public class BinaryHeap {
 
     public Integer peek(){
         if(isEmpty()){
-            System.out.println("Binary Heap is Empty!!");
+            System.out.println("Binary Heap is Empty!! ");
             return null;
         }
         return arr[1];
