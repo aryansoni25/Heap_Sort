@@ -128,6 +128,6 @@ public class BinaryHeap {
 
     public void deleteBH(){
         arr=null;
-        System.out.println("Successfully deleted the Binary Heap!!");
+        System.out.println("Successfully deleted the Binary Heap!! ");
     }
 }
